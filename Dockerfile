@@ -2,7 +2,7 @@ FROM quay.io/justcontainers/base-alpine:latest
 MAINTAINER Ben Pye <ben@curlybracket.co.uk> <Updated by C.U.tech cody@c-u-tech.com>
 
 ENV murmurversion=1.2.19
-ENV dockerizeversion=0.0.5
+ENV dockerizeversion=0.5.0
 
 RUN mkdir -p /opt/
 
