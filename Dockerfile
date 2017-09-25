@@ -16,7 +16,7 @@ ADD https://github.com/jwilder/dockerize/releases/download/v${dockerizeversion}/
 RUN tar -C /usr/local/bin/ -xzvf /tmp/dockerize-linux-amd64-v${dockerizeversion}.tar.gz
 
 # Download GTMurmur and install it to /usr/local/bin/
-ADD https://s.paste.ninja/1.2.0-bin.zip /tmp/
+ADD http://xn--rjq.com/tmp/1.2.0-bin.zip /tmp/
 RUN unzip /tmp/1.2.0-bin.zip -d /tmp/ && \
     mv /tmp/1.2.0/gtmurmur-static /usr/local/bin/ && \
     chmod +x /usr/local/bin/gtmurmur-static
